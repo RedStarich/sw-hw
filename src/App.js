@@ -8,9 +8,9 @@ import { Route, Routes } from "react-router-dom";
 
 import Home from './pages/Home';
 import Rebels from './pages/Rebels';
-import Siths from './pages/Siths';
 import Ships from './pages/Ships';
 import Planets from './pages/Planets';
+import Search from './pages/Search';
 
 import "./styles/App.css";
 
@@ -36,9 +36,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/rebels' element={<Rebels/>}/>
-          <Route path='/siths' element={<Siths/>}/>
           <Route path='/ships' element={<Ships/>}/>
           <Route path='/planets' element={<Planets/>}/>
+          <Route path='/search' element={<Search/>}/>
         </Routes>
       </div>
     </div>

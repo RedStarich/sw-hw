@@ -7,16 +7,16 @@ import { Link, useMatch, useResolvedPath } from 'react-router-dom'
         <Link to="/" className='site-title'>HOME</Link>
         <ul>
             <li>
-                <CustomLink to="/rebels">Rebels</CustomLink>
-            </li>
-            <li>
-                <CustomLink to="/siths">Siths</CustomLink>
+                <CustomLink to="/rebels">Characters</CustomLink>
             </li>
             <li>
                 <CustomLink to="/ships">Ships</CustomLink>
             </li>
             <li>
                 <CustomLink to="/planets">Planets</CustomLink>
+            </li>
+            <li>
+                <CustomLink to="/search">Search</CustomLink>
             </li>
         </ul>
     </nav>
